@@ -1,0 +1,102 @@
+<div ng-controller="detailsController">
+    <div ng-repeat="item in datas">
+        <div ng-if="item.id == uri">
+            <!-- Header Start -->
+            <div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
+                <div class="container text-center py-5">
+                    <h4 class="text-white mb-4 text-capitalize">Detail of: {{item.name}}</h4>
+                    <div class="d-inline-flex align-items-center text-white">
+                        <p class="m-0"><a class="text-white" href="#!shop">Shop</a></p>
+                        <i class="far fa-circle px-3"></i>
+                        <p class="m-0">Details</p>
+                        <i class="far fa-circle px-3"></i>
+                        <p class="m-0 text-capitalize">{{item.name}}</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Header End -->
+
+
+            <!-- Detail Start  -->
+            <div class="container p-3">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="{{item.image}}" class="card-img" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <small>SKU: {{item.id}}</small>
+                        <div class="name">
+                            <h1>{{item.name}}</h1>
+                        </div>
+                        <div>
+                            <p>Price: </p>
+                            <p class="prices_details text-success">${{item.price}} <small class="text-dark">USD</small>
+                            </p>
+                        </div>
+                        <div class="qty">
+                            <p>Quantity: </p>
+                            <form class="control-group d-flex">
+                                <button class="btn btn-primary" ng-click="minus()">-</button>
+                                <input type="number" class="form-control p-4 text-center" ng-model="qty" id="subject" value="{{spinnerText()}}"/>
+                                <button class="btn btn-primary" ng-click="plus()">+</button>
+                            </form>
+                        </div>
+                        <div class="add mt-4">
+                            <button class="btn btn-primary btn-block" ng-click="addToCart(item, qty)"> <i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</button>
+                        </div>
+                        <div class="details mt-3">
+                            <p>Product Details: </p>
+                            <table class="table table-border table-striped">
+                                <tr>
+                                    <th>Method</th>
+                                    <td>{{item.method}}</td>
+                                </tr>
+                                <tr>
+                                    <th>Scent</th>
+                                    <td>{{item.scent}}</td>
+                                </tr>
+                                <tr>
+                                    <th>Life</th>
+                                    <td>{{item.life}}</td>
+                                </tr>
+                                <tr>
+                                    <th>Consistency</th>
+                                    <td>{{item.consistency}}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <h3>Description</h3>
+                    <p>{{item.description}}</p>
+                </div>
+            </div>
+
+            <!-- Detail End  -->
+
+        </div>
+    </div>
+
+    <!-- See More Product  -->
+    <div class="featured text-center mt-3">
+        <h3>Featured Products</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3" ng-repeat="item in datas">
+                    <div ng-if="item.id &lt; 5">
+                        <div class="card">
+                            <img class="card-img-top" src="{{item.image}}" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title text-truncate">{{item.name}}</h4>
+                                <p class="card-text">{{item.price}}</p>
+                                <a href="#!details/{{item.id}}" class="btn btn-outline-warning">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

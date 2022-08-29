@@ -1,0 +1,32 @@
+<!-- Header Start  -->
+<div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
+    <div class="container text-center py-5">
+        <h3 class="text-white display-3 mb-4">Shop</h3>
+        <div class="d-inline-flex align-items-center text-white">
+            <p class="m-0"><a class="text-white" href="#!/">Home</a></p>
+            <i class="far fa-circle px-3"></i>
+            <p class="m-0">Shop</p>
+        </div>
+    </div>
+</div>
+<!-- Header End  -->
+
+<!-- Shop Start  -->
+<div class="container">
+    <div class="text-center">
+        <h1>All Products</h1>
+    </div>
+    <div class="row align-items-center justify-content-between">
+        <div class="col-lg-3 col-md-4 col-sm-12 mt-3" ng-repeat="item in products">
+            <div class="card mt-3">
+                <img class="card-img-top" src="{{item.image}}" alt="">
+                <div class="card-body">
+                    <h4 class="card-title text-truncate">{{item.name}}</h4>
+                    <p class="card-text">{{item.price}}</p>
+                    <a href="#!details/{{item.id}}" class="btn btn-outline-warning">View Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Shop End  -->

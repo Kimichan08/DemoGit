@@ -1,0 +1,180 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "Apricot Kernel Carrier Oil",
+            "image": "https://www.planttherapy.com/mm5/graphics/00000001/apricot_kernel_carrier_oil-2oz-01_480x480.jpg",
+            "price": 8.99,
+            "method": "Cold pressed from apricot kernels and then refined.",
+            "scent": "Apricot Kernel carrier oil has very little scent, characteristic of most carrier oils.",
+            "life": 1,
+            "consistency": "Typical of many carrier oils.",
+            "description": "Apricot Kernel carrier oil is good for all skin types, especially sensitive and mature skin. It is very rich and nourishing - particularly in vitamin A. Apricot Kernel is a popular oil and is suitable for soapers, aromatherapists and massage therapists. Apricot Kernel Oil is slow to go rancid; users can expect a shelf life of at least 1 year under proper storage conditions (cool, out of direct sunlight). Refrigeration after opening is recommended."
+        },
+        {
+            "id": 2,
+            "name": "Avocado Carrier Oil",
+            "image": "https://www.planttherapy.com/mm5/graphics/00000001/avocado_carrier_oil-2oz-01_480x480.jpg",
+            "price": 9.99,
+            "method": "Cold pressed from the pulp of the avocado fruit and then refined.",
+            "scent": "Avocado carrier oil has very little scent..",
+            "life": 1,
+            "consistency": "slightly thicker and heavier than most carrier oils",
+            "description": "Avocado carrier oil contains Vitamins A, B, D, E, and Beta carotene. It is a deeply penetrating monounsaturated oil and is best suited for very dry, mature, irritated, or sun-damaged skin and hair"
+        },
+        {
+            "id": 3,
+            "name": "Camellia Seed Carrier Oil            ",
+            "image": "https://www.planttherapy.com/mm5/graphics/00000001/camellia_seed_carrier_oil-2oz-01_480x480.jpg",
+            "price": 10.99,
+            "method": "Cold pressed from the seeds of the Camellia plant and then refined.",
+            "scent": "Camellia Seed Oil has a mild aroma.",
+            "life": 1,
+            "consistency": "Typical of many carrier oils.",
+            "description": "Camellia Seed Oil helps protects the skin from free radical damage, refines mature skin, and nourishes the complexion. It is easily absorbed by the skin, leaving it silky smooth without a greasy feeling, making it one of the best kept secrets in the cosmetic and hair care industry."
+        },
+        {
+            "id": 4,
+            "name": "Clear Complex Carrier Oil Blend",
+            "image": "https://www.planttherapy.com/mm5/graphics/00000001/clear_complex_carrier_oil-2oz-01_480x480.jpg",
+            "price": 10.99,
+            "method": "Cold pressed from the seeds of the Camellia plant and then refined.",
+            "scent": "Camellia Seed Oil has a mild aroma.",
+            "life": 1,
+            "consistency": "Typical of many carrier oils.",
+            "description": "This fantastic carrier oil blend is just the thing for problem skin, especially if you have oily skin prone to blemishes. Clear Complex contains Grapeseed, Hemp Seed, Evening Primrose, and Vitamin E Oils.            "
+        },
+        {
+            "id": 5,
+            "name": "DermiSoothe Carrier Oil Blend",
+            "image": "https://www.planttherapy.com/mm5/graphics/00000001/dermi_soothe_carrier_oil-2oz-01_480x480.jpg",
+            "price": 9.99,
+            "method": "Cold pressed from the seeds of the Camellia plant and then refined.",
+            "scent": "Camellia Seed Oil has a mild aroma.",
+            "life": 1,
+            "consistency": "Typical of many carrier oils.",
+            "description": "DermiSoothe was created for those that suffer from rough and reddened skin. When it comes to rough and reddened skin, there are two things the skin needs: a moisture barrier and skin soothing properties. "
+        },
+        {
+            "id": 6,
+            "name": "Evening Primrose Carrier Oil",
+            "image": "https://www.planttherapy.com/mm5/graphics/00000001/evening_primrose_carrier_oil-2oz-01%20(1)_480x480.jpg",
+            "price": 9.99,
+            "method": "Cold Pressed/Refined from the seeds of the Evening Primrose.",
+            "scent": "Evening Primrose carrier oil has been refined to remove the scent.",
+            "life": 1,
+            "consistency": "Typical of most carrier oils.",
+            "description": "Evening Primrose carrier oil contains high levels of nourishing fatty acids and is excellent for use at up to 20% in skin blends. It penetrates deeply and is very soothing to red or irritated skin."
+        },
+        {
+            "id": 7,
+            "name": "Fractionated Coconut Carrier Oil",
+            "image": "https://www.planttherapy.com/mm5/graphics/00000001/fractionated_coconut_carrier_oil-2oz-01_480x480.jpg",
+            "price": 8.99,
+            "method": "Heat Processed",
+            "scent": "Fractionated Coconut carrier oil has no scent.",
+            "life": 3,
+            "consistency": "Thinner than most carrier oils.",
+            "description": "Fractionated Coconut Oil is one of the most versatile carrier oils available. It absorbs very quickly into the skin, making it ideal for use with any essential oil or blend. This excellent carrier oil can help moisturize the skin, remove makeup, and help keep hair lustrous and smooth. In addition, it readily penetrates the skin, making it perfect for rollerball blends, creams, and lotions without leaving a greasy feeling. Easy to use by itself or with your favorite essential oils, Fractionated Coconut Oil is a definite must-have."
+        },
+        {
+            "id": 8,
+            "name": "Grapeseed Carrier Oil",
+            "image": "https://www.planttherapy.com/mm5/graphics/00000001/grapeseed_carrier_oil-2oz-01_480x480.jpg",
+            "price": 8.99,
+            "method": "Pressed from the washed, crushed seeds of grapes, and then refined using low heat.",
+            "scent": "Grapeseed carrier oil is odorless.",
+            "life": 1,
+            "consistency": "Grapeseed carrier oil is one of the lightest carrier oils available.",
+            "description": "Grapeseed Oil is extremely popular in skincare formulations for creams and lotions and as a carrier oil in aromatherapy. It is the preferred carrier oil for many massage therapists (if they do not use lotion) because of its light, satin like finish. It also has some astringent qualities and is good for oily skin."
+        },
+        {
+            "id": 9,
+            "name": "CHOCOLATE SOAP",
+            "image": "https://aviana.qodeinteractive.com/wp-content/uploads/2017/09/h9-product-4.jpg",
+            "price": 20.00,
+            "method": "Pressed from the washed, crushed seeds of grapes, and then refined using low heat.",
+            "scent": "Grapeseed carrier oil is odorless.",
+            "life": 1,
+            "consistency": "Grapeseed carrier oil is one of the lightest carrier oils available.",
+            "description": "Lorem Ipsum. Proin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit"
+        },
+        {
+            "id": 10,
+            "name": "GIFT BAR SOAP",
+            "image": "https://aviana.qodeinteractive.com/wp-content/uploads/2017/09/h9-product-5.jpg",
+            "price": 20.00,
+            "method": "Pressed from the washed, crushed seeds of grapes, and then refined using low heat.",
+            "scent": "Grapeseed carrier oil is odorless.",
+            "life": 1,
+            "consistency": "Grapeseed carrier oil is one of the lightest carrier oils available.",
+            "description": "Lorem Ipsum. Proin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit"
+        },
+        {
+            "id": 11,
+            "name": "LAVENDER SOAP",
+            "image": "https://aviana.qodeinteractive.com/wp-content/uploads/2017/09/h9-product-6-1.jpg",
+            "price": 10.00,
+            "method": "Pressed from the washed, crushed seeds of grapes, and then refined using low heat.",
+            "scent": "Grapeseed carrier oil is odorless.",
+            "life": 1,
+            "consistency": "Grapeseed carrier oil is one of the lightest carrier oils available.",
+            "description": "Lorem Ipsum. Proin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit"
+        },
+        {
+            "id": 12,
+            "name": "HEART SHAPED SOAP",
+            "image": "https://aviana.qodeinteractive.com/wp-content/uploads/2017/09/h9-product-7-1.jpg",
+            "price": 10.00,
+            "method": "Pressed from the washed, crushed seeds of grapes, and then refined using low heat.",
+            "scent": "Grapeseed carrier oil is odorless.",
+            "life": 1,
+            "consistency": "Grapeseed carrier oil is one of the lightest carrier oils available.",
+            "description": "Lorem Ipsum. Proin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit"
+        },
+        {
+            "id": 13,
+            "name": "ORANGE SOAP BAR",
+            "image": "https://aviana.qodeinteractive.com/wp-content/uploads/2017/09/h9-product-8.jpg",
+            "price": 14.00,
+            "method": "Pressed from the washed, crushed seeds of grapes, and then refined using low heat.",
+            "scent": "Grapeseed carrier oil is odorless.",
+            "life": 1,
+            "consistency": "Grapeseed carrier oil is one of the lightest carrier oils available.",
+            "description": "Lorem Ipsum. Proin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit"
+        },
+        {
+            "id": 14,
+            "name": "ROSES SOAP",
+            "image": "https://aviana.qodeinteractive.com/wp-content/uploads/2017/09/h9-product-9.jpg",
+            "price": 10.00,
+            "method": "Pressed from the washed, crushed seeds of grapes, and then refined using low heat.",
+            "scent": "Grapeseed carrier oil is odorless.",
+            "life": 1,
+            "consistency": "Grapeseed carrier oil is one of the lightest carrier oils available.",
+            "description": "Lorem Ipsum. Proin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit"
+        },
+        {
+            "id": 15,
+            "name": "COCOA BEAN SOAP",
+            "image": "https://aviana.qodeinteractive.com/wp-content/uploads/2017/09/h9-product-10.jpg",
+            "price": 10.00,
+            "method": "Pressed from the washed, crushed seeds of grapes, and then refined using low heat.",
+            "scent": "Grapeseed carrier oil is odorless.",
+            "life": 1,
+            "consistency": "Grapeseed carrier oil is one of the lightest carrier oils available.",
+            "description": "Lorem Ipsum. Proin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit"
+        },
+        {
+            "id": 16,
+            "name": "BERRY SOAP BAR",
+            "image": "https://aviana.qodeinteractive.com/wp-content/uploads/2017/09/h9-product-11-1.jpg",
+            "price": 10.00,
+            "method": "Pressed from the washed, crushed seeds of grapes, and then refined using low heat.",
+            "scent": "Grapeseed carrier oil is odorless.",
+            "life": 1,
+            "consistency": "Grapeseed carrier oil is one of the lightest carrier oils available.",
+            "description": "Lorem Ipsum. Proin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit"
+        }
+    ]
+}

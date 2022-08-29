@@ -1,0 +1,48 @@
+<!-- Header Start -->
+<div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
+    <div class="container text-center py-5">
+        <h3 class="text-white display-3 mb-4">Cart</h3>
+        <div class="d-inline-flex align-items-center text-white">
+            <p class="m-0"><a class="text-white" href="#!/">Home</a></p>
+            <i class="far fa-circle px-3"></i>
+            <p class="m-0">Cart</p>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+<!-- Cart Start -->
+<div class="container" ng-controller="cartCtrl">
+    <table class="table mt-4 mb-4">
+        <thead>
+            <tr>
+                <th scope="col">Image</th>
+                <th scope="col">Product's Name</th>
+                <th scope="col">Product's Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr ng-repeat="item in carts">
+                <td><img src="{{item.cart.item.image}}" alt="" width='50' /></td>
+                <td>
+                    <a href="#!details/{{item.cart.item.id}}" class="text-decoration-none">
+                        {{item.cart.item.name}}
+                    </a>
+                </td>
+                <td>${{item.cart.item.price}}</td>
+                <td>{{item.cart.qty}}</td>
+                <td>${{item.cart.item.price * item.cart.qty}}</td>
+                <td>
+                    <i class="fa fa-trash" ng-click="handleAction(item.cart.item.id)" aria-hidden="true"></i>
+                </td>
+
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+<!-- Cart End -->

@@ -1,0 +1,54 @@
+<!-- Header Start -->
+<div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
+    <div class="container text-center py-5">
+        <h3 class="text-white display-3 mb-4">Register</h3>
+        <div class="d-inline-flex align-items-center text-white">
+            <p class="m-0"><a class="text-white" href="#!/">Home</a></p>
+            <i class="far fa-circle px-3"></i>
+            <p class="m-0">Register</p>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+<!-- Register Start  -->
+<div class="container" ng-controller="registerController">
+    <div class="login m-auto">
+        <div class="">
+            <div class="bg-light p-5 my-lg-5">
+                <h5 class="text-white text-uppercase bg-primary py-1 mb-3 text-center">Register</h5>
+                <form name="myForm" ng-submit="register(name, email, pass, PASS)">
+                    <div class="form-group">
+                        <label for="Name" class="cursor-pointer">Username: </label>
+                        <input type="text" name="" id="Name" class="form-control" placeholder="Username..." ng-model="name"
+                            aria-describedby="helpId">
+                    </div>
+                    <div class="form-group">
+                        <label for="mail" class="cursor-pointer">Email: </label>
+                        <input class="form-control" id="to" name="To"  ng-pattern="emails.EMAIL_FORMAT"
+                            placeholder="{{emails.EMAIL_FORMAT_HELP}}" ng-model="email" />
+                        <small class="text-danger" ng-show="myForm.To.$error.pattern">Invalid Email</small>
+                    </div>
+                    <div class="form-group">
+                        <label class="cursor-pointer" for="pass">Password:</label>
+                        <input type="password" class="form-control" ng-model="pass" id="pass" placeholder="Password..." />
+                    </div>
+                    <div class="form-group">
+                        <label for="PASS" class="cursor-pointer">Confirm Password:</label>
+                        <input type="password" id="PASS" class="form-control" ng-model="PASS" placeholder="Confirm Password..."
+                            ng-change="match()" /><br />
+                        <p ng-show="isMatch" style="color:green">
+                            Password matched
+                        </p>
+                        <p ng-hide="isMatch || PASS==null" style="color:red">
+                            Password does not match
+                        </p>
+                    </div>
+                    <button type="submit" name="" id="" class="btn btn-primary btn-block">Register...</button>
+                    <a href="#!login" class="text-decoration-none">Return to Login</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Register End  -->
